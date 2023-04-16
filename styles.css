@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+.holder{
+	display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-template-rows: repeat(2, 100px); /* Two rows */
+  grid-gap: 10px; /* Gap between the grid items */
+  width: 200px; /* Width of the grid */
+  height: 200px; /* Height of the grid */
+}
+
+.item {
+  background-color: gray;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 24px;
+}
+
+}
